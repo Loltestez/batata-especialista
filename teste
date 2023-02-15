@@ -1,0 +1,6 @@
+local player = game.Players.LocalPlayer -- Obtém a instância do jogador local
+local block = Instance.new("Part") -- Cria uma nova instância de bloco
+block.Position = player.Character.HumanoidRootPart.Position -- Define a posição do bloco para a posição atual do jogador
+block.Size = Vector3.new(5, 5, 5) -- Define o tamanho do bloco
+block.Color = Color3.new(1, 0, 0) -- Define a cor do bloco
+block.Parent = game.Workspace -- Define o pai do bloco como o espaço de trabalho do jogo
